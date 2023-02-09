@@ -1,0 +1,17 @@
+.logo{
+    width: 200px;
+}
+.bg-body-tertiary {
+    background-color: white!important;
+}
+.header {
+    position: absolute;
+    width: 100%;
+}
+.header-container {
+    padding-right: 50px;
+
+}
+.menu-button {
+    cursor: pointer;
+} 

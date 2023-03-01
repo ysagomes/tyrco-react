@@ -10,8 +10,15 @@
 }
 .header-container {
     padding-right: 50px;
-
 }
 .menu-button {
     cursor: pointer;
 } 
+#dropdown-custom-components{
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+.nav-link{
+    color: black;
+}

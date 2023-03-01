@@ -1,0 +1,93 @@
+.title{
+    font-size: 2rem;
+
+    padding: 2rem 0 0 0;
+    color: #a4161a;
+    text-align: center;
+}
+.products{
+    margin: 0 auto;
+    padding: 5rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    gap: 3rem 1rem;
+    box-sizing: border-box;
+}
+.product{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 10px 10px 2px rgba(0,0,0,.2);
+    border: 6px solid transparent;
+    border-radius: 5px;
+}
+.product:hover{
+    border: 6px solid gray;
+}
+.productImage{
+    width: 310px;
+}
+.footerProduct{
+    padding: 1rem;
+}
+.footerProduct h1{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: gray;
+}
+.footerProduct p {
+    font-weight: 500;
+    color: rgba(0, 0, 0, 555);
+    font-size: 14px;
+}
+.footerProduct .price {
+    font-size: 1.5rem;
+    color: #1a202c;
+}
+.product .buttom {
+    width: 100%;
+    height: 45px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem 3rem;
+    padding: 0 1rem;
+    margin: 1rem;
+}
+.buttom .btn {
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buttom button {
+    background-color: #a4161a;
+    max-width: 250px;
+    width: 100%;
+    font-size: 1.5 rem;
+    color: white;
+    font-weight: 600;
+}
+.buttom div {
+    background-color: #161a1d;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    margin-left: -2rem;
+    border-radius: 5px;
+}
+.buttom div a {
+    color: white;
+    font-weight: 700;
+}
+.buttom div a:hover {
+    color: white;
+}
+.imgProduct{
+    width: 200px;
+    height: 200px;
+}
+.productImage {
+    display: flex;
+    justify-content: center;
+}
